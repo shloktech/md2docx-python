@@ -42,7 +42,7 @@ Enter the path for the output Word file (e.g., README.docx): ..\sample_files\ama
 
 ## Why this repo and not others ?
 
-Here are some reasons why this script might be considered better or more suitable for certain use cases compared to other scripts available on the internet:
+Here are some reasons why this repo might be considered better or more suitable for certain use cases compared to other scripts available on the internet:
 
 ### 1. **Comprehensive Markdown Support**
    - **Header Levels**: The script supports multiple header levels (`h1`, `h2`, `h3`), which is important for properly structuring the document.
@@ -68,6 +68,9 @@ Here are some reasons why this script might be considered better or more suitabl
 
 ### 7. **Handles Basic HTML Tags**
    - **Text Formatting**: Properly handles bold and italic text by interpreting HTML tags (`strong`, `em`), ensuring that formatting is preserved when converting to Word.
+
+### 8. **Privacy**
+   - If you are working in a corporate firm and you want to convert your markdown files to word and you use a online tool to do it then there are chances that they will store your file which can cause to a vital information leak of your company. With use of this repo you can easily do the conversion in your own system.
 
 ### Comparison to Other Scripts
 - **Feature Set**: Some scripts may lack comprehensive support for Markdown features or may not handle lists and text formatting well.

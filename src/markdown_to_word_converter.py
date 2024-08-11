@@ -3,20 +3,20 @@ from docx import Document
 from bs4 import BeautifulSoup
 
 def markdown_to_word(markdown_file, word_file):
-    # Read the Markdown file
+    # Reading the Markdown file
     with open(markdown_file, 'r', encoding='utf-8') as file:
         markdown_content = file.read()
 
-    # Convert Markdown to HTML
+    # Converting Markdown to HTML
     html_content = markdown.markdown(markdown_content)
 
-    # Create a new Word Document
+    # Creating a new Word Document
     doc = Document()
 
-    # Convert HTML to text and add it to the Word Document
+    # Converting HTML to text and add it to the Word Document
     soup = BeautifulSoup(html_content, 'html.parser')
     
-    # Add content to the Word Document
+    # Adding content to the Word Document
     for element in soup:
         if element.name == 'h1':
             doc.add_heading(element.text, level=1)
@@ -40,12 +40,9 @@ def markdown_to_word(markdown_file, word_file):
             for li in element.find_all('li'):
                 doc.add_paragraph(li.text, style='List Number')
     
-    # Save the Word Document
     doc.save(word_file)
 
-# Get user input for file names
 markdown_file = input("Enter the path to the Markdown file (e.g., README.md): ")
 word_file = input("Enter the path for the output Word file (e.g., README.docx): ")
 
-# Convert Markdown to Word
 markdown_to_word(markdown_file, word_file)

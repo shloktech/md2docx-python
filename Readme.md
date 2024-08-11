@@ -29,7 +29,7 @@ You need to have Python installed on your system along with the following librar
 You can install the required libraries using pip:
 
 ```bash
-pip install markdown python-docx beautifulsoup4
+pip install -r requirements.txt
 ```
 
 To run the sample files follow the below steps:

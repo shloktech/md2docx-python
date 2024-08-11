@@ -1,0 +1,3 @@
+markdown
+python-docx
+beautifulsoup4

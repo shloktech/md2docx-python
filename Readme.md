@@ -25,7 +25,16 @@ You can install the required libraries using pip:
 ```bash
 pip install markdown python-docx beautifulsoup4
 ```
-## Why repo and not others ?
+
+To run the sample files follow the below steps:
+
+```bash
+python markdown_to_word_converter.py
+Enter the path to the Markdown file (e.g., README.md): ..\sample_files\amazon_case_study.md  
+Enter the path for the output Word file (e.g., README.docx): ..\sample_files\amazon_case_study.docx
+```
+
+## Why this repo and not others ?
 
 Here are some reasons why this script might be considered better or more suitable for certain use cases compared to other scripts available on the internet:
 

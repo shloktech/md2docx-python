@@ -4,6 +4,12 @@
 
 Simple and straight forward Python script that converts a Markdown file (`.md`) to a Microsoft Word document (`.docx`). It supports basic Markdown elements, including headings, bold and italic text, and both unordered and ordered lists.
 
+#### Input .md file:
+![image](https://github.com/user-attachments/assets/c2325e52-05a7-4e11-8f28-4eeb3d8c06f5)
+
+#### Output .docx file:
+![image](https://github.com/user-attachments/assets/3e48a9dd-8fe3-43cc-8246-164c58e95179)
+
 
 ## Features
 

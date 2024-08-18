@@ -79,3 +79,4 @@ Here are some reasons why this repo might be considered better or more suitable 
 
 Overall, this script provides a balanced combination of functionality, simplicity, and ease of use, which can be advantageous for many users looking to convert Markdown files to Word documents.
 
+For any queries please start a discussion I will be happy to answer your queries :)

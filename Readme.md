@@ -77,5 +77,7 @@ Here are some reasons why this repo might be considered better or more suitable 
 - **Performance**: Depending on the implementation, performance might vary. This script is designed to be efficient for typical Markdown files.
 - **User-Friendliness**: The clear and concise code in this script may make it more user-friendly and easier to modify compared to more complex alternatives.
 
+  For any queries please start a discussion I will be happy to answer your queries :)
+
 Overall, this script provides a balanced combination of functionality, simplicity, and ease of use, which can be advantageous for many users looking to convert Markdown files to Word documents.
 

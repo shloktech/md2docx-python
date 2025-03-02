@@ -10,6 +10,14 @@ Simple and straight forward Python utility that converts a Markdown file (`.md`)
 #### Output .docx file:
 ![image](https://github.com/user-attachments/assets/3e48a9dd-8fe3-43cc-8246-164c58e95179)
 
+## Word to Markdown Conversion Example:
+#### Input .docx file:
+![image](https://github.com/user-attachments/assets/2891ebdf-ff36-4fd5-af2f-b35413264b06)
+
+#### Output .md file:
+![image](https://github.com/user-attachments/assets/e46c096b-762e-4f0c-a0ab-f81c3069a533)
+
+
 
 ## Features
 

@@ -39,8 +39,6 @@ You need to have Python installed on your system along with the following librar
 - `beautifulsoup4` for parsing HTML
 - `mammoth` for converting Word to HTML
 
-Sure, let's enhance your instructions for clarity and completeness:
-
 ---
 
 ### How to Convert Markdown to Word Using `md2docx-python`
